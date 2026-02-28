@@ -1,25 +1,46 @@
-# Variational Quantum Eigensolver (VQE) for Ground State Energy
+# Quantum Simulation Portfolio
 
-## Overview
-This project implements the Variational Quantum Eigensolver (VQE) using Qiskit to estimate the ground state energy of a simple quantum system. VQE is a hybrid quantum-classical algorithm widely used in quantum chemistry and near-term quantum computing research.
+This repository contains independent projects focused on quantum simulation, variational algorithms, and noise analysis using Python and Qiskit. The goal of these projects is to develop practical understanding of near-term quantum algorithms and numerical methods for many-body quantum systems.
 
-## Objectives
-- Implement a hybrid quantum-classical workflow
-- Design parameterized quantum circuits (ansatz)
-- Use classical optimization to minimize energy
-- Simulate quantum execution using Qiskit Aer
+---
 
-## Methodology
-1. Define a Hamiltonian operator
-2. Construct a parameterized ansatz circuit
-3. Use SLSQP optimizer
-4. Evaluate expectation values using a statevector simulator
-5. Iteratively minimize energy
+## Projects
+
+### 1. Variational Quantum Eigensolver (VQE) for H₂
+- Implemented VQE using Qiskit
+- Estimated ground state energy of the hydrogen molecule
+- Demonstrates hybrid quantum-classical optimization workflow
+- Relevant for quantum chemistry and NISQ optimization
+
+---
+
+### 2. Noise Analysis for Entangled States
+- Simulated Bell state under depolarizing noise
+- Computed fidelity between ideal and noisy states
+- Performed noise parameter sweep
+- Demonstrates understanding of NISQ device limitations and quantum information metrics
+
+---
+
+### 3. Transverse Field Ising Model (Exact Diagonalization)
+- Constructed many-body Hamiltonian for a 1D spin system
+- Computed ground state energy via exact diagonalization
+- Performed parameter sweep over transverse field strength
+- Demonstrates numerical simulation of interacting quantum systems
+
+---
 
 ## Tools & Technologies
 - Python
-- Qiskit
-- Qiskit Aer
+- Qiskit / Qiskit Aer
 - NumPy
+- Matplotlib
 
-## Project Structure
+---
+
+## Research Focus
+These projects reflect my interest in:
+- Variational quantum algorithms
+- Quantum simulation of many-body systems
+- Effects of noise in near-term quantum devices
+- Hybrid quantum-classical methods
